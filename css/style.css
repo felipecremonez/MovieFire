@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  width: 100%;
+  height: auto;
 }
 
 header {
@@ -130,8 +132,25 @@ nav a:hover{
   inset: 5px;
   border-radius: 15px;
 }  
-/* .card:hover:before {
-  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
-  animation: rotBGimg 3.5s linear infinite;
-} */
 
+.startPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 12rem;
+  height: 70%;
+  background-color: rgba(129, 68, 186, 0.788);
+}
+
+.startPage h1{
+  width: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.startPage p{
+  width: 100%;
+  height: auto;
+  font-family: cursive;
+}
